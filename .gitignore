@@ -1,0 +1,4 @@
+# excluir esse arquivo dos commits
+.zip
+.DS_Store
+.prettierignore
