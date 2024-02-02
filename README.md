@@ -180,24 +180,24 @@ Agora você pode testar o serviço implementado.
 15. Na página do **predict-rentals**, selecione a guia **Test**. No painel **Input data to test endpoint**, substitua o template JSON, fornecido abaixo, depois clique no botão *Test*:
     ```json
     {
-        "Inputs": { 
+        "Inputs": {
             "data": [
-            {
-                "day": 1,
-                "mnth": 1,   
-                "year": 2022,
-                "season": 2,
-                "holiday": 0,
-                "weekday": 1,
-                "workingday": 1,
-                "weathersit": 2, 
-                "temp": 0.3, 
-                "atemp": 0.3,
-                "hum": 0.3,
-                "windspeed": 0.3 
-            }
-            ]    
-        },   
+                {
+                    "day": 1,
+                    "mnth": 1,
+                    "year": 2022,
+                    "season": 2,
+                    "holiday": 0,
+                    "weekday": 1,
+                    "workingday": 1,
+                    "weathersit": 2,
+                    "temp": 0.3,
+                    "atemp": 0.3,
+                    "hum": 0.3,
+                    "windspeed": 0.3
+                }
+            ]
+        },
         "GlobalParameters": 1.0
     }
     ```
